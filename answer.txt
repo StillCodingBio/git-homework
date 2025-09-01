@@ -1,0 +1,8 @@
+What is the difference between git add and git commit?
+git add put the indicated file(s) in the staging areas; while git commit takes the file(s) in the staging transfers them to the repository, resulting in actual change.
+
+What happens if you delete the .git folder?
+Removes the .git folder will delete the repository, thus losing all the comments, records, and former files.
+
+Why should you never share your private key (id_rsa)?
+Its the password to sensitive information.
