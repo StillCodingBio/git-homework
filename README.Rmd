@@ -1,0 +1,40 @@
+---
+title: "README"
+author: "Anthony Stillman"
+date: "2025-11-29"
+output: html_document
+---
+
+Final_BIOS658 summary function.
+
+inputs:
+Bibography information:
+final_ref.bib 
+GEO data for analysis:
+https://www.ncbi.nlm.nih.gov/geo/download/?acc=GSE188847&format=file
+GetGEO data:
+GSE188847
+ensembl reference:
+"ensembl"
+Original study data:
+https://static-content.springer.com/esm/art%3A10.1038%2Fs43587-022-00321-w/MediaObjects/43587_2022_321_MOESM3_ESM.xlsx
+
+
+Script description:
+This script downloads the GEO data. Pairs the GEO data with the GetGEO data and ensembl reference. Process and normalizes the counts in the GEO data. Visualizes the processing, tag analysis, and pathway enrichment analysis. The original study data is also download for comparison purposes. The final_ref.bib is used for the references.
+
+Outputs:
+GEO data:
+GSE188847_RAW
+GSE188847_RAW.tar
+GetGEO data:
+GSE188847_series_matrix.txt.gz
+GPL24676.soft.gz
+DEGS results:
+Final_DEGs.xlsx
+Enrichment results:
+GSEA2_Control.vs..Covid19.xlsx
+Rmarkdown:
+Final_BIO658_Stillman_9.html
+Volcano plot:
+volcano_plot.pdf
